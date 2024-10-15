@@ -15,13 +15,17 @@
 <header>
 <?php include("/var/www/include/ads.php"); ?>
 <?php include("/var/www/include/header-start.php"); ?>
-<h1>Linux PMC Tactical</h1>
+	<h1>Linux PMC Tactical</h1>
 <p>Welcome to Linux PMC Tactical.</p>
 <?php include("/var/www/include/header-end.php"); ?>
 </header>
 
 <section>
 <?php include("/var/www/include/section-start.php"); ?>
+<?php include("/var/www/include/support.php"); ?>
+	<h2>Welcome To My Linux World</h2>
+
+<p><a href="about.php">About</a> quick description what this website is all about.</p>
 
 <?php include("/var/www/include/section-end.php"); ?>
 </section>
