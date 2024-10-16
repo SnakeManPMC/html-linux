@@ -27,6 +27,7 @@
 
 <p><a href="about.php">About</a> quick description what this website is all about.</p>
 <p><a href="apache-disable-website.php">Apache Disable Website</a> when you need to let her go.</p>
+<p><a href="apache-prevent-hotlinking.php">Apache Prevent Hotlinking</a> get rid of those scumsuckers who use your website as image host/mirror.</p>
 <p><a href="apache.php">Apache</a> web server.</p>
 
 <?php include("/var/www/include/section-end.php"); ?>

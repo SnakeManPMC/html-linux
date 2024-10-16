@@ -26,6 +26,11 @@ h2
 	font-size: 24px;
 }
 
+b
+{
+	color: rgb(250, 250, 250);
+}
+
 header
 {
 	text-align: center;
@@ -58,7 +63,7 @@ a:hover, a:active
 }
 
 /* Linux Shell Bash command line */
-.bash
+pre, .bash
 {
 	background-color: rgb(20, 20, 20);
 	color: rgb(200, 200, 200);

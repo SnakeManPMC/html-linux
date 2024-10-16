@@ -15,6 +15,9 @@
   <loc>https://linux.pmctactical.org/apache-disable-website.php</loc>
 </url>
 <url>
+  <loc>https://linux.pmctactical.org/apache-prevent-hotlinking.php</loc>
+</url>
+<url>
   <loc>https://linux.pmctactical.org/apache.php</loc>
 </url>
 </urlset>
