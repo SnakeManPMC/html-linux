@@ -16,7 +16,10 @@
 <?php include("/var/www/include/ads.php"); ?>
 <?php include("/var/www/include/header-start.php"); ?>
 	<h1>Linux PMC Tactical</h1>
-<p>Welcome to Linux PMC Tactical.</p>
+
+<p>
+Welcome to Linux PMC Tactical. This website is under development in oct 2024 and most likely will be for months to come as I slowly migrate all my Linux notes from private localhost to here where everyone can read them.
+</p>
 <?php include("/var/www/include/header-end.php"); ?>
 </header>
 
