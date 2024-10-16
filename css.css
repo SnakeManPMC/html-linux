@@ -56,3 +56,10 @@ a:hover, a:active
 {
 	background-color: rgb(100, 100, 100);
 }
+
+/* Linux Shell Bash command line */
+.bash
+{
+	background-color: rgb(20, 20, 20);
+	color: rgb(200, 200, 200);
+}
