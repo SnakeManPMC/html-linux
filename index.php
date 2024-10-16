@@ -30,6 +30,7 @@
 <p><a href="apache-prevent-hotlinking.php">Apache Prevent Hotlinking</a> get rid of those scumsuckers who use your website as image host/mirror.</p>
 <p><a href="apache-virtual-host.php">Apache Virtual Host</a> mywebsite.example.com style domain thingy.</p>
 <p><a href="apache.php">Apache</a> web server.</p>
+<p><a href="letsencrypt.php">Letsencrypt</a> SSL certificates for website domains, ie HTTPS instead of unprotected HTTP link.</p>
 
 <?php include("/var/www/include/section-end.php"); ?>
 </section>
