@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Linux PMC Tactical</title>
+<title>Apache Disable Website Linux PMC Tactical</title>
 <LINK href="css.css" rel=stylesheet type="text/css">
-<META name="description" content="Linux PMC Tactical">
+<META name="description" content="Apache Disable Website Linux PMC Tactical">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,19 +15,29 @@
 <header>
 <?php include("/var/www/include/ads.php"); ?>
 <?php include("/var/www/include/header-start.php"); ?>
-	<h1>Linux PMC Tactical</h1>
-<p>Welcome to Linux PMC Tactical.</p>
+	<h1>Apache Disable Website Linux PMC Tactical</h1>
+<p>Welcome to Apache Disable Website Linux PMC Tactical.</p>
 <?php include("/var/www/include/header-end.php"); ?>
 </header>
 
 <section>
 <?php include("/var/www/include/section-start.php"); ?>
 <?php include("/var/www/include/support.php"); ?>
-	<h2>Welcome To My Linux World</h2>
+	<h2>Apache Disable Website</h2>
 
-<p><a href="about.php">About</a> quick description what this website is all about.</p>
-<p><a href="apache-disable-website.php">Apache Disable Website</a> when you need to let her go.</p>
-<p><a href="apache.php">Apache</a> web server.</p>
+<p>
+Linux Apache disable website. This takes the website domain offline, Apache server will not serve any https requests to that address anymore. No actual physical files are removed from your web root though.
+</p>
+
+<pre class="bash">
+sudo a2dissite example.com
+sudo a2dissite example.com-le-ssl
+sudo systemctl restart apache2
+</pre>
+
+<p>
+I did that when one of my domains was let to expire so it was not working anymore, Letsencrypt somehow did not work on it and it caused all kinds of issues like Apache getting error on its config, no idea how but hey who cares. I used that a2dissite &lt;DOMAINNAME&gt; and then restart for Apache itself, problem solved.
+</p>
 
 <?php include("/var/www/include/section-end.php"); ?>
 </section>
